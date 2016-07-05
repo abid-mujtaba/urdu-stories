@@ -1,0 +1,8 @@
+# Ignore Latex generated files
+
+*/*.aux
+*/*.log
+
+# Ignore generated pdf files
+
+*/*.pdf
