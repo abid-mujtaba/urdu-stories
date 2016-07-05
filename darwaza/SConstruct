@@ -1,0 +1,13 @@
+# -*- mode: python -*-
+# SCons build file for the xelatex short story
+
+import os
+
+# Note by using ENV = os.environ we import ALL environmental variables defined in the shell
+env = Environment(ENV = os.environ, PDFLATEX='xelatex')
+env.AppendUnique(PDFLATEXFLAGS='-halt-on-error')
+
+pdf = env.PDF('darwaza.tex')
+show = env.Command(None, pdf, 'evince darwaza.pdf &')
+
+Default(show)
