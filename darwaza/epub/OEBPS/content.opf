@@ -17,10 +17,12 @@
     </metadata>
 
     <manifest>
-        <item id="story" href="story.html" media-type="application/xhtml+xml"/>
+        <item id="story" href="story.html" media-type="application/xhtml+xml" />
+        <item id="urdu-css" href="assets/css/urdu.css" media-type="text/css" />
+        <item id="jameel-noori-nastaleeq" href="assets/fonts/jameel-noori-nastaleez.ttf" media-type="application/octet-stream" />
     </manifest>
 
     <spine>
-        <itemref idref="story"/>
+        <itemref idref="story" />
     </spine>
 </package>

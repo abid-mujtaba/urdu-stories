@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "jameel-noori-nastaleeq";
+    src: url("../fonts/jameel-noori-nastaleeq.ttf") format("truetype");
+}
+
+body {
+   direction: rtl;
+   font-family: "jameel-noori-nastaleeq";
+}
+
+h1 {
+    text-align: center;
+}

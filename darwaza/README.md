@@ -11,4 +11,10 @@ An excellent resource on creating one from scratch (by hand) is [here][epub-tuto
 [epub-tutorial]: https://publicism.info/writing/ebooks/6.html
 
 To create an epub from the source files simply `cd` into the `epub` folder and
-run `zip <filename>.epub */*`
+run:
+
+``` console
+zip <filename>.epub * */* */*/* */*/*/*
+```
+
+*Note*: We have to go 4 levels deep because the assets are nested so.
