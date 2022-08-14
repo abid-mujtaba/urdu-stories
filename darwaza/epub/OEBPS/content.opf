@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0">
+    <metadata
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:opf="http://www.idp.org/2007/opf"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        >
+
+        <dc:title>Foo</dc:title>
+        <dc:language>en</dc:language>
+
+        <dc:identifier id="BookId">foo</dc:identifier>
+        <meta property="dcterms:modified">2022-08-14T13:57:00Z</meta>
+    </metadata>
+
+    <manifest>
+        <item id="story" href="story.html" media-type="application/xhtml+xml"/>
+    </manifest>
+
+    <spine>
+        <itemref idref="story"/>
+    </spine>
+</package>
