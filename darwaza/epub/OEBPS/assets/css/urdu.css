@@ -6,8 +6,11 @@
 body {
    direction: rtl;
    font-family: "jameel-noori-nastaleeq";
+   font-size: 400%;
+   word-spacing: 0.25rem;
 }
 
 h1 {
     text-align: center;
+    font-size: 800%;
 }
