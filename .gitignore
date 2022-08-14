@@ -11,3 +11,6 @@
 
 */.sconsign.dblite
 */*.fls
+
+# Ignore anything inside a build folder
+build/
