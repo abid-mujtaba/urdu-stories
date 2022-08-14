@@ -9,3 +9,6 @@ An epub is simply a well (formally) structured zip file.
 An excellent resource on creating one from scratch (by hand) is [here][epub-tutorial].
 
 [epub-tutorial]: https://publicism.info/writing/ebooks/6.html
+
+To create an epub from the source files simply `cd` into the `epub` folder and
+run `zip <filename>.epub */*`
