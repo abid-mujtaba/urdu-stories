@@ -11,18 +11,16 @@ An excellent resource on creating one from scratch (by hand) is [here][epub-tuto
 [epub-tutorial]: https://publicism.info/writing/ebooks/6.html
 
 To create an epub from the source files simply `cd` into the `epub` folder and
-run:
+run: `make epub`.
 
-``` console
-zip <filename>.epub * */* */*/* */*/*/*
-```
-
-*Note*: We have to go 4 levels deep because the assets are nested so.
+This will read the story data defined in `epub/story.yaml`,
+inject it into the template,
+and create the contents in the `epub/build` folder.
 
 ## Local Preview
 
 To preview the (unzipped) (x)html locally from the `epub` folder run
-`python3.10 -m http.server -d OEBPS`
+`make preview`.
 
 ## Convert to KFX
 
