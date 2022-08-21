@@ -19,6 +19,7 @@
 
     <manifest>
         <item id="story" href="story.html" media-type="application/xhtml+xml" />
+        <item id="cover" properties="cover-image" href="assets/imgs/cover.tiff" media-type="image/tiff" />
         <item id="urdu-css" href="assets/css/urdu.css" media-type="text/css" />
         <item id="jameel-noori-nastaleeq" href="assets/fonts/jameel-noori-nastaleeq.ttf" media-type="application/octet-stream" />
     </manifest>
