@@ -1,4 +1,4 @@
-NAME := darwaza
+NAME := aanandi
 
 pre-build:
 	rm -rf build
