@@ -6,17 +6,17 @@
     </head>
 
     <docTitle>
-        <text>دروازہ</text>
+        <text>{{title}}</text>
     </docTitle>
 
     <docAuthor>
-        <text>عابد حسن مجتبیٰ</text>
+        <text>{{author}}</text>
     </docAuthor>
 
     <navMap>
         <navPoint id="chapter1" playOrder="1">
             <navLabel>
-                    <text>دروازہ</text>
+                    <text>{{title}}</text>
             </navLabel>
             <content src="story.html" />
         </navPoint>
