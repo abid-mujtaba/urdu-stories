@@ -14,6 +14,7 @@
 
         <dc:identifier id="BookId">دروازہ</dc:identifier>
         <meta property="dcterms:modified">2022-08-14T13:57:00Z</meta>
+        <meta name="primary-writing-mode" content="horizontal-rl" />
     </metadata>
 
     <manifest>
